@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dedbd6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#banner {
+    background-image: linear-gradient(45deg, rgb(80,52,31,0.5), rgb(80,52,31,0.5)), url("https://cdn.minnesotamonthly.com/wp-content/uploads/sites/85/2021/06/MOTHERCO_X-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+#banner:hover {
+    background-image: linear-gradient(45deg, rgb(80,52,31,0.6), rgb(80,52,31,0.6)), url("https://cdn.minnesotamonthly.com/wp-content/uploads/sites/85/2021/06/MOTHERCO_X-scaled.jpg");
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    margin-top: 1rem;
+    padding: 1rem;
+    list-style: none;
+    text-align: center;
+    background-color: #117A65;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li:hover {
+    text-shadow: 0.5rem 0.5rem 0.5rem #50341f;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+article {
+    flex: 1;
+    background-color: #b2ab99;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #50341f;
+    transition: 0.2s ease-in-out;
+}
+
+article:hover {
+    box-shadow: 0.1rem 0.1rem 0.5rem #50341f;
+}
+
+figure img {
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+article a {
+    text-decoration: none;
+    color: #117A65;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+article a:hover {
+    padding: 1rem;
+    background-color: rgb(80,52,31,0.5);
+    border-radius: 1rem;
+    color: white;
+}
+
+article p.opH {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+footer {
+    display: flex;
+    align-items: baseline;
+    margin-top: 3rem;
+}
+
+footer div {
+    flex: 1;
+}
+
+#copyright {
+    display: flex;
+    justify-content: flex-end;
+    color: #50341f;
+}
